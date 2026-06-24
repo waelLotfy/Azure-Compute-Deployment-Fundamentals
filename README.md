@@ -17,6 +17,41 @@ The focus is on understanding architectural intent, operational trade-offs, and 
 
 ---
 
+### Azure CLI Resource Management in Cloud Shell
+
+#### Overview
+Expanded hands-on experience with Azure CLI by using Cloud Shell to create, manage, query, and clean up Azure resources directly from the command line. This lab reinforces automation‑ready workflows and demonstrates how CLI-based operations streamline deployment and lifecycle management.
+
+#### Objectives
+- Navigate and operate within Azure Cloud Shell  
+- Create and manage resources using Azure CLI commands  
+- Apply tags, query resources, and perform cleanup from the command line  
+
+#### Tasks Performed
+
+##### 1. Explore Cloud Shell Environment
+- Launched Cloud Shell in Bash mode, verified subscription context, explored built‑in help, and listed available regions.
+
+**Outcome:**  
+Cloud Shell environment initialized with full command-line readiness.
+
+##### 2. Create and List Resources with CLI
+- Created a resource group and two storage accounts entirely through CLI commands.
+- Listed and filtered resources to validate successful deployment.
+
+**Outcome:**  
+A resource group and two storage accounts created and verified using CLI commands.
+
+##### 3. Tag, Query, and Clean Up Resources
+- Applied tags to the resource group and individual resources.
+- Used JMESPath filters to query and shape CLI output.
+- Deleted the resource group to complete the full lifecycle from the command line.
+
+**Outcome:**  
+Resources tagged, queried, and cleaned up entirely through Azure CLI operations.
+
+---
+
 ## Compute Models Compared
 
 | Model               | Control Level | Operational Overhead  | Best Use Case                              |
