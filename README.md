@@ -52,6 +52,29 @@ Resources tagged, queried, and cleaned up entirely through Azure CLI operations.
 
 ---
 
+### Enable High Availability with Availability Sets
+
+#### Overview
+Implemented high availability for virtual machines by distributing workloads across an Azure availability set and fronting them with a load balancer. This lab demonstrates how Azure protects applications from hardware failures and ensures resilient compute architectures.
+
+#### Objectives
+- Create and configure an availability set  
+- Deploy multiple virtual machines across fault and update domains  
+- Add and configure an Azure Load Balancer  
+- Implement health probes and load‑balancing rules  
+
+#### Tasks Performed
+- Created an availability set to distribute VM workloads across isolated hardware.  
+- Deployed two virtual machines into the availability set.  
+- Added an Azure Load Balancer to provide a unified entry point for the VMs.  
+- Configured a health probe to monitor VM availability.  
+- Added a load‑balancing rule to distribute traffic across both VMs.
+
+**Outcome:**  
+A highly available VM architecture using an availability set and load balancer, providing resilience against hardware failures and enabling balanced traffic distribution.
+
+---
+
 ## Compute Models Compared
 
 | Model               | Control Level | Operational Overhead  | Best Use Case                              |
