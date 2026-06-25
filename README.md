@@ -75,6 +75,26 @@ A highly available VM architecture using an availability set and load balancer, 
 
 ---
 
+### Enable High Availability and Scalability with Virtual Machine Scale Sets
+
+#### Overview
+Implemented a scalable and highly available compute architecture using Azure Virtual Machine Scale Sets (VMSS). This lab demonstrates how Azure automatically distributes workloads, scales out application tiers, and maintains resiliency across multiple VM instances.
+
+#### Objectives
+- Deploy a VM scale set for a web server tier using the Azure portal  
+- Deploy a VM scale set for an app server tier using an ARM template  
+- Configure connectivity and access to the web tier scale set  
+
+#### Tasks Performed
+- Created a VM scale set for the web server tier directly from the Azure portal.  
+- Deployed a second VM scale set for the application tier using an ARM template to demonstrate declarative, repeatable provisioning.  
+- Configured inbound connectivity to the web tier scale set to enable access to hosted workloads.
+
+**Outcome:**  
+Two virtual machine scale sets deployed across web and application tiers, providing automated scaling, high availability, and resilient workload distribution.
+
+---
+
 ## Compute Models Compared
 
 | Model               | Control Level | Operational Overhead  | Best Use Case                              |
