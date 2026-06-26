@@ -52,6 +52,28 @@ Resources tagged, queried, and cleaned up entirely through Azure CLI operations.
 
 ---
 
+### Run Commands by Using Azure Cloud Shell (PowerShell & Bash)
+
+#### Overview
+Expanded command‑line deployment skills by configuring Azure Cloud Shell and deploying virtual networks using both Azure PowerShell and Azure CLI. This lab demonstrates cross‑tool proficiency and reinforces automation‑ready infrastructure workflows.
+
+#### Objectives
+- Configure Azure Cloud Shell with persistent storage  
+- Deploy a virtual network using Azure PowerShell cmdlets  
+- Deploy a virtual network using Azure CLI commands  
+- Manage and update network configurations from the command line  
+
+#### Tasks Performed
+- Configured Cloud Shell with a new storage account and file share.  
+- Deployed a virtual network using PowerShell (`New-AzVirtualNetwork`) and stored the configuration in variables for modification.  
+- Added a subnet to the virtual network and applied the updated configuration.  
+- Switched to Bash mode and deployed a second virtual network using Azure CLI (`az network vnet create`).  
+
+**Outcome:**  
+Virtual networks deployed and managed using both Azure PowerShell and Azure CLI within Cloud Shell, demonstrating cross‑platform command‑line proficiency.
+
+---
+
 ### Enable High Availability with Availability Sets
 
 #### Overview
